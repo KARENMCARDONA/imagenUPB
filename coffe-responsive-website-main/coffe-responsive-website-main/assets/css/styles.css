@@ -12,11 +12,13 @@
   --z-fixed: 100;
 }
 
-@media screen and (min-width: 768px){
-  :root{
-    --big-font-size: 5rem;
-    --normal-font-size: 1rem;
-  }
+body {
+  font-size: 16px;
+}
+
+ 
+@media screen and (max-width: 64px){
+
 }
 
 /*===== BASE =====*/
@@ -36,6 +38,30 @@ body{
 
 }
 
+img {
+  transition: transform 0.2s ease;
+  
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.img2:hover {
+  transform: scale(1.1);
+}
+
+.img3:hover {
+  transform: scale(1.1);
+}
+
+.img4:hover {
+  transform: scale(1.1);
+}
+
+.img6:hover {
+  transform: scale(1.1);
+}
 ul{
   list-style: none;
 }
@@ -103,6 +129,7 @@ button:hover {
 }
 
 .img1 {
+  transition: transform 0.2s ease;
   margin-left: 950px;
   margin-top: -340px;
   width: 140%;
@@ -112,6 +139,7 @@ button:hover {
 }
 
 .img2 {
+  transition: transform 0.2s ease;
   margin-left: 950px;
   margin-top: -340px;
   width: 110%;
@@ -120,6 +148,7 @@ button:hover {
 }
 
 .img3 {
+  transition: transform 0.2s ease;
   margin-left: 950px;
   margin-top: -300px;
   width: 110%;
@@ -128,6 +157,7 @@ button:hover {
 }
 
 .img4 {
+  transition: transform 0.2s ease;
   margin-left: 950px;
   margin-top: -265px;
   width: 110%;
@@ -136,6 +166,7 @@ button:hover {
 }
 
 .img5{
+  transition: transform 0.2s ease;
   margin-left: 950px;
   margin-top: -520px;
   width: 110%;
@@ -144,6 +175,7 @@ button:hover {
 }
 
 .img6 {
+  transition: transform 0.2s ease;
   margin-left: 950px;
   margin-top: -520px;
   width: 110%;
