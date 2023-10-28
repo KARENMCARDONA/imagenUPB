@@ -54,6 +54,7 @@ img{
   gap: 20px;
   margin-top: 10px;
   margin-left: 150px;
+  position: relative;
 }
 
 .nav_menu2 {
@@ -73,7 +74,7 @@ img{
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 100px;
   margin-left: 150px;
  
 }
@@ -93,9 +94,60 @@ p {
   height: 50px;
   border-radius: 10px;
   border: none;
+  
 }
 
-.img {
-  margin-left: 950px;
-  margin-bottom: 900px;
+button:hover {
+  color: rgb(49, 104, 223);
 }
+
+.img1 {
+  margin-left: 950px;
+  margin-top: -340px;
+  width: 140%;
+  height: auto;
+  z-index: -1;
+  position: absolute;
+}
+
+.img2 {
+  margin-left: 950px;
+  margin-top: -340px;
+  width: 110%;
+  z-index: 1;
+  position: absolute;
+}
+
+.img3 {
+  margin-left: 950px;
+  margin-top: -300px;
+  width: 110%;
+  z-index: 1;
+  position: absolute;
+}
+
+.img4 {
+  margin-left: 950px;
+  margin-top: -265px;
+  width: 110%;
+  z-index: 1;
+  position: relative;
+}
+
+.img5{
+  margin-left: 950px;
+  margin-top: -520px;
+  width: 110%;
+  z-index: 1;
+  position: absolute;
+}
+
+.img6 {
+  margin-left: 950px;
+  margin-top: -520px;
+  width: 110%;
+  z-index: 1;
+  position: absolute;
+}
+
+
